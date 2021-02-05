@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+#Apps {
+    background-color: #ff3399;
+    height: 800px;
+}
+#games {
+    background-color: #ff9999;
+    height: 800px;
+}
+#chatbot {
+    background-color: #ff9966;
+    height: 800px;
+}
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+img {
+    transition: transform.2s;
+}
+img:hover {
+    transform: scale(0.9);
+}
